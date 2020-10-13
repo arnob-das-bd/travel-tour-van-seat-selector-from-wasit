@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+.main {
+  height: 600px;
+  background-image: url(./van.png);
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  position: relative;
+}
+p{
+  display: none;
+}
+button {
+  position: absolute;
+  border: none;
+  border-radius: 5px;
+  padding: 22px 56px;
+  background: #000;
+  opacity: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* button:focus {
+  outline: none;
+  opacity: 1;
+  background: linear-gradient(90deg, rgba(241, 163, 71, 1) 0%, rgba(217, 179, 146, 1) 100%);
+  color: linear-gradient(90deg, rgba(241,163,71,1) 0%, rgba(217,179,146,1) 100%);
+} */
+
+.focused{
+  outline: none;
+  opacity: 1;
+  background: linear-gradient(90deg, rgba(241, 163, 71, 1) 0%, rgba(217, 179, 146, 1) 100%);
+  color: linear-gradient(90deg, rgba(241,163,71,1) 0%, rgba(217,179,146,1) 100%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.grp1 {
+  left: 257px;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.grp2 {
+  left: 433px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grp3 {
+  left: 605px;
+}
+
+.btn1 {
+  top: 111px;
+}
+
+.btn2 {
+  top: 174px;
+}
+
+.btn3 {
+  top: 238px;
+}
+
+.btn4 {
+  top: 301px;
+}
+
+.btn5 {
+  top: 123px;
+}
+
+.btn6 {
+  top: 186px
+}
+
+.btn7 {
+  top: 250px;
+}
+
+.btn8 {
+  top: 123px;
+}
+
+.btn9 {
+  top: 186px;
+}
+
+.btn10 {
+  top: 250px;
 }
