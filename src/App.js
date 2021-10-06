@@ -100,7 +100,7 @@ function App() {
       }
 
       {
-        btn9 ? <button className="grp3 btn9" onClick={handleBtn9}><p>button 1</p></button>
+        btn9 ? <button className="grp3 btn9 customer-button" onClick={handleBtn9}><p>button 1</p></button>
           : <button className="grp3 btn9 focused" onClick={handleBtn9}><p>button 1</p></button>
       }
 
