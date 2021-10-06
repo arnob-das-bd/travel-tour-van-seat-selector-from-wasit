@@ -70,7 +70,7 @@ function App() {
       }
 
       {
-        btn3 ? <button className="grp1 btn3" onClick={handleBtn3}><p>button 1</p></button>
+        btn3 ? <button className="grp1 btn3 seat-button" onClick={handleBtn3}><p>button 1</p></button>
           : <button className="grp1 btn3 focused" onClick={handleBtn3}><p>button 1</p></button>
       }
 
